@@ -38,6 +38,21 @@ max_page = result_numbers/10
 
 print('Page number: %s pages' % max_page)
 
+# navigate between pages of results
+url_page = driver.find_element(By.XPATH, '//*[@aria-label="Page 2"]').get_attribute('href')
+
+current_page = 0
+start = 10
+
+while current_page <= 10:
+    if not current_page == 0:
+        url_page = url_page.replace("start=%s" % start, "start=%s" % (start+10))
+        start = start + 10
+    current_page = current_page + 1
+    driver.get(url_page)
+
+
+
 
 
 
