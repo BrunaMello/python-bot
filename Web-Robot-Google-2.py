@@ -51,6 +51,17 @@ while current_page <= 10:
     current_page = current_page + 1
     driver.get(url_page)
 
+    # getting link pages
+    divs = driver.find_elements(By.XPATH, "//div[@class='g']")
+    for div in divs:
+        name = div.find_element(By.TAG_NAME, "h3")
+        link = div.find_element(By.TAG_NAME, "a")
+        result = "%s; %s" % (name.text, link.get_attribute("href"))
+        print(result)
+
+
+# getting links pages
+
 
 
 
