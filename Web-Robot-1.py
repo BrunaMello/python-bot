@@ -20,17 +20,18 @@ s = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s, options=options)
 driver.get('https://www.registro.br')
 
+domains = ['brunacrespomello.com', 'hotmart.com', 'uol.com', 'globo.com']
 
-# search local to input
-search = driver.find_element(By.ID, 'is-avail-field')
-search.clear()
+for domain in domains:
+    # search local to input
+    search = driver.find_element(By.ID, 'is-avail-field')
+    search.clear()
+    search.send_keys(domain)
+    search.send_keys(Keys.RETURN)
+    time.sleep(5)
+    # getting bolder
+    driver.find_element(By.XPATH, '//*[@id="app"]/main/section/div[2]/div/p/span/strong')
+    print('Domain: %s %s' % (domains, driver.find_element(By.XPATH, '//*[@id="app"]/main/section/div[2]/div/p/span/strong')))
 
-domain = 'brunacrespomello'
-search.send_keys(domain)
-search.send_keys(Keys.RETURN)
-time.sleep(2)
 
-# getting bolder
-driver.find_element(By.XPATH, '//*[@id="app"]/main/section/div[2]/div/p/span/strong')
-print('Domain: %s %s' % (domain, driver.find_element(By.XPATH, '//*[@id="app"]/main/section/div[2]/div/p/span/strong')))
 driver.close()
