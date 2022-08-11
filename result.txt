@@ -1,0 +1,10 @@
+Domain: roboscompython.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: hotmart.com <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: uol.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: clickjogos.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: jogosonline.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: facebook.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: instagram.com <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: teste857.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: gamesonline.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
+Domain: dominiodeteste.com.br <selenium.webdriver.remote.webelement.WebElement (session="2d3d7d3dd9a3fcdbcb343c94b1c6a128", element="dd8c35b2-36fd-434c-a636-88dffd95d291")>
