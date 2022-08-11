@@ -45,7 +45,7 @@ for curr_row in range(0, rows):
     # getting bolder
     driver.find_element(By.XPATH, '//*[@id="app"]/main/section/div[2]/div/p/span/strong')
     time.sleep(1)
-    text = 'Domain: %s %s\n' % (x, driver.find_element(By.XPATH, '//*[@id="app"]/main/section/div[2]/div/p/span/strong'))
+    text = 'Domain: %s %s\n' % (x, driver.find_element(By.XPATH, '//*[@id="app"]/main/section/div[2]/div/p/span/strong').text)
     arq.write(text)
     time.sleep(1)
 

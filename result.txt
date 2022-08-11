@@ -1,10 +1,10 @@
-Domain: roboscompython.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: hotmart.com <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: uol.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: clickjogos.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: jogosonline.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: facebook.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: instagram.com <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: teste857.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: gamesonline.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
-Domain: dominiodeteste.com.br <selenium.webdriver.remote.webelement.WebElement (session="bebe641e1c2f133b618b553d978a271c", element="26e9aa97-c336-49a1-ae2d-f490846b2054")>
+Domain: roboscompython.com.br disponível
+Domain: hotmart.com não disponível
+Domain: uol.com.br não disponível
+Domain: clickjogos.com.br não disponível
+Domain: jogosonline.com.br não disponível
+Domain: facebook.com.br não disponível
+Domain: instagram.com não disponível
+Domain: teste857.com.br disponível
+Domain: gamesonline.com.br disponível
+Domain: dominiodeteste.com.br não disponível

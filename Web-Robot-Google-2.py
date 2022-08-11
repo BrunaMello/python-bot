@@ -28,6 +28,10 @@ field = driver.find_element(By.XPATH, '//input[@aria-label="Search"]')
 field.send_keys(search)
 field.send_keys(Keys.ENTER)
 
+#getting information about the search
+results = driver.find_element(By.XPATH, '//*[@id="result-stats"]').text
+print(results)
+
 
 
 
