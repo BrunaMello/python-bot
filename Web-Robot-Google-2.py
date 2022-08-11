@@ -28,9 +28,17 @@ field = driver.find_element(By.XPATH, '//input[@aria-label="Search"]')
 field.send_keys(search)
 field.send_keys(Keys.ENTER)
 
-#getting information about the search
+# getting information about the search
 results = driver.find_element(By.XPATH, '//*[@id="result-stats"]').text
 print(results)
+
+# getting number of pages in the result
+result_numbers = int(results.split("About ")[1].split(" results")[0].replace(',', ''))
+max_page = result_numbers/10
+
+print('Page number: %s pages' % max_page)
+
+
 
 
 
