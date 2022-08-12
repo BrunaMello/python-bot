@@ -43,13 +43,15 @@ url_page = driver.find_element(By.XPATH, '//*[@aria-label="Page 2"]').get_attrib
 
 current_page = 0
 start = 10
+result_list = []
 
 while current_page <= 10:
     if not current_page == 0:
         url_page = url_page.replace("start=%s" % start, "start=%s" % (start+10))
         start = start + 10
+        driver.get(url_page)
     current_page = current_page + 1
-    driver.get(url_page)
+
 
     # getting link pages
     divs = driver.find_elements(By.XPATH, "//div[@class='g']")
@@ -57,11 +59,15 @@ while current_page <= 10:
         name = div.find_element(By.TAG_NAME, "h3")
         link = div.find_element(By.TAG_NAME, "a")
         result = "%s; %s" % (name.text, link.get_attribute("href"))
-        print(result)
+        # add result to txt
+        result_list.append(result)
 
+with open("google-robot-result.txt", "w") as file:
+    for result in result_list:
+        file.write("%s\n" % result)
+    file.close()
 
-# getting links pages
-
+print("%s found results from Google and successfully saved on txt file" % len(result_list))
 
 
 
