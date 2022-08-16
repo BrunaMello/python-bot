@@ -1,0 +1,18 @@
+Welcome to Python.org; https://www.python.org/
+Welcome to Python.org; https://www.python.org/
+; https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python
+; https://en.wikipedia.org/wiki/List_of_Python_software
+; https://www.coursera.org/articles/how-long-does-it-take-to-learn-python-tips-for-learning
+; https://www.python.org/about/
+Python Tutorial - W3Schools; https://www.w3schools.com/python/
+; https://techvidvan.com/tutorials/python-sequences/
+; https://www.educative.io/answers/how-to-uninstall-python
+Think Python - Green Tea Press; https://greenteapress.com/wp/think-python/
+Python for Bioinformatics - Page 393 - Google Books result; https://books.google.ie/books?id=xbPNBQAAQBAJ&pg=PA393&lpg=PA393&dq=python&source=bl&ots=CSdb-Z3WHb&sig=ACfU3U2pc0c6tVdfs6yx0tSdarsqPYmTZw&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECAIQAw
+Eye-Tracking with Python and Pylink - Page 4 - Google Books result; https://books.google.ie/books?id=62tREAAAQBAJ&pg=PA4&lpg=PA4&dq=python&source=bl&ots=ytPRvukHeV&sig=ACfU3U23AtIu2OFdjZX5c5Np6BLtqFY8HA&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECAQQAw
+Learn Programming in Python with Cody Jackson: Grasp the ...; https://books.google.ie/books?id=RN18DwAAQBAJ&pg=PA283&lpg=PA283&dq=python&source=bl&ots=ERlGf2x8uu&sig=ACfU3U2TD2n5R4F_5xtF9ndyEpQxoGSPNg&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECAgQAw
+Test-Driven Development with Python: Obey the Testing Goat: ...; https://books.google.ie/books?id=3igvDwAAQBAJ&pg=PR29&lpg=PR29&dq=python&source=bl&ots=9YYktUSFb9&sig=ACfU3U31TM8LFbSdz8Z0D9Q2zIaYGO7YeQ&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECAkQAw
+Programming in Python: Learn the Powerful Object-Oriented ...; https://books.google.ie/books?id=zf_bDwAAQBAJ&pg=PT16&lpg=PT16&dq=python&source=bl&ots=XR4Z9_TNRv&sig=ACfU3U1K5gc53JdF9RG-iCK8T478JdkY2g&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECAMQAw
+Introduction to Python for Engineers and Scientists: Open ...; https://books.google.ie/books?id=FABCDwAAQBAJ&pg=PA13&lpg=PA13&dq=python&source=bl&ots=T0PzF8cV1J&sig=ACfU3U1SlK3E6fs8FOhEzyZyIteEaX8v0Q&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECAoQAw
+Python Programming for Beginners: A Comprehensive Crash ...; https://books.google.ie/books?id=wd5UEAAAQBAJ&pg=PA62&lpg=PA62&dq=python&source=bl&ots=ohOFIJreXl&sig=ACfU3U3gkGQ3VHj6soWO9ytzs514oPuEQw&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECBQQAw
+Machine Learning for Decision Sciences with Case Studies in ...; https://books.google.ie/books?id=WJhwEAAAQBAJ&pg=PR21&lpg=PR21&dq=python&source=bl&ots=pGM6OiBdIH&sig=ACfU3U3pYlLBCo9cyBJDeAO8O3O4Acr7Pw&hl=en&sa=X&ved=2ahUKEwimwJ3egMD5AhUHS0EAHb2bCFk4ZBDoAXoECAUQAw
