@@ -1,7 +1,5 @@
 # Simple Mail Transfer Protocol
 import smtplib
-from email import encoders
-from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -23,29 +21,20 @@ msg['To'] = toaddres
 # Subject
 msg['Subject'] = 'Python Mail Test'
 
-# Body
-body = """Test message from Python Mail Test"""
+html = """
+<html>
+<body>
+    <p>Title</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-# Editing
-msg.attach(MIMEText(body, 'plain'))
+<a href="https://github.com/BrunaMello/python-bot/commits?author=BrunaMello">Clique Aqui!!!!</a>
+</body>
+</html>"""
 
-# Attachment
-filename = 'result.txt'
+part1 = MIMEText(html, "html")
 
-attach = open('result.txt', 'rb')
-
-# Saving attach inside computer memory
-p = MIMEBase('application', 'octet-stream')
-
-p.set_payload(attach.read())
-
-# Coding to 64-bit
-encoders.encode_base64(p)
-
-# Reader
-p.add_header('Content-Disposition', 'attachment; filename="%s"' % filename)
-
-msg.attach(p)
+msg.attach(part1)
 
 
 # SMTP server configuration
@@ -55,7 +44,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
 # Login email
-s.login(fromaddres, '')
+s.login(fromaddres, 'password')
 
 # Change everything as a string
 text = msg.as_string()
